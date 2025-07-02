@@ -140,11 +140,11 @@ class DoublyLinkedList{
         return tail->data;
     }
 
-    size_t size(){
+    size_t size() const{
         return _size;
     }
 
-    bool empty(){
+    bool empty() const{
         return _size == 0;
     }
 
