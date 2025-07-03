@@ -35,5 +35,18 @@ int main(){
 
     cout<<"tree clear: "<<(tree.empty() ? "yes" : "no")<<endl;
 
+    BST<int>bst;
+    bst.insert(10);
+    bst.insert(20);
+    bst.insert(15);
+
+    const int* found = bst.find(15);
+    if(found){
+        cout<<"found";
+    }
+    else{
+        cout<<"not found";
+    }
+
     return 0;
 }

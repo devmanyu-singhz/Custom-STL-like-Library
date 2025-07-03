@@ -51,6 +51,21 @@ class BST{
         }
     }
 
+    Node* find(Node* node, const T& val) const {
+        if(!node){
+            return NULL;
+        }
+        if(val == node->data){
+            return node;
+        }
+        if(val < node->data){
+            return find(node->left, val);
+        }
+        else{
+            return find(node->right, val);
+        }
+    }
+
     //to find minimum node
     Node* findMin(Node* node) const {
         while(node && node->left){
@@ -137,6 +152,11 @@ class BST{
 
     bool contains(const T& val) const {
         return contains(root, val);
+    }
+
+    const T* find(const T& val) const {
+        Node* result = find(root, val);
+        return result ? &(result->data) : NULL;
     }
 
     void inorder() const {
