@@ -7,10 +7,10 @@ It deepens the understanding of not only using these data structures but also wh
 
 ## Highlights
 
--**Fully implemented from scratch** - external libraries are used where absolutely necessary.
--**Modular** design - each structure is self-contained.
--Comes with **comprehensive test files** for every structure.
--Clean, header-based includes for easy integration.
+-**Fully implemented from scratch** - external libraries are used where absolutely necessary.<br>
+-**Modular** design - each structure is self-contained. <br>
+-Comes with **comprehensive test files** for every structure. <br>
+-Clean, header-based includes for easy integration. <br>
 
 ---
 
