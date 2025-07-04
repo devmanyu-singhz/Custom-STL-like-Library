@@ -61,9 +61,52 @@ g++ -std=c++14 src\\tests//graphtest.cpp -o graphtest.exe
 
 ---
 
-## Upcoming Features
+## CLI Tools
 
--CLI or minimal GUI interface.
+This project includes simple and interactive Command-Line Interface (CLI) tools for testing and demonstrating the following data structures:
+
+
+### Supported CLI Tools
+
+
+#### HashMap CLI (main.cpp)-
+
+Allows you to insert key-value pairs, retrieve values, check key existence, delete keys, and clear the map.
+
+#### HashSet CLI (hashsetcli.cpp)-
+
+Lets you insert, check existence, remove keys, and view the current set size.
+
+#### Trie CLI (triecli.cpp)-
+
+Enables insertion of words, checking if a word exists, removing words, and testing for prefix matches.
+
+
+Each CLI runs in a simple interactive loop and helps test the data structures without writing test files manually. Useful for:
+
+-**Hands-on debugging**
+
+-**Quick demonstrations**
+
+-**Practicing data structure operations**
+
+---
+
+### Running the CLI Tools
+
+You can run each CLI individually using g++ or the Run button in VS Code if your project is set up correctly.
+
+**Example (for Trie):**
+
+```bash
+
+g++ triecli.cpp -o triecli
+./triecli
+
+```
+
+-> Note: The CLIs are built with C++14 to ensure compatibility with older systems. No C++17 features are used.
+
 
 ---
 
