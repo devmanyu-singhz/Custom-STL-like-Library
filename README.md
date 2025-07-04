@@ -69,6 +69,13 @@ g++ -std=c++14 src\\tests//graphtest.cpp -o graphtest.exe
 
 ## About The Author
 
-Name - Abhimanyu Singh
+**Name** - Abhimanyu Singh
+**LinkedIn** - https://www.linkedin.com/in/abhimanyu-singh-87886b28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE.txt) file for details.
 
 ---
